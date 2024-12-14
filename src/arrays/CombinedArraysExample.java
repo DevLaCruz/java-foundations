@@ -1,4 +1,6 @@
-public class EjemploArreglosCombinados {
+package arrays;
+
+public class CombinedArraysExample {
 
     public static void main(String[] args) {
 

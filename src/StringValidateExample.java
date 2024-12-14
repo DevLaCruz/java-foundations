@@ -3,7 +3,7 @@ public class StringValidateExample {
         
         String course = null;
         
-        boolean isNull = course == null;
+        boolean isNull = course == null;    
 
         System.out.println("isNull = " + isNull);
 

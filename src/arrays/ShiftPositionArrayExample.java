@@ -1,6 +1,7 @@
+package arrays;
 import java.util.Scanner;
 
-public class EjemploArreglosDesplazarPosicion {
+public class ShiftPositionArrayExample {
     public static void main(String[] args) {
 
         int[] a = new int[10];
@@ -8,7 +9,7 @@ public class EjemploArreglosDesplazarPosicion {
         Scanner s = new Scanner(System.in);
 
         for(int i = 0; i < a.length; i++){
-            System.out.print("Ingrese el número:");
+            System.out.print("Type a number:");
             a[i] = s.nextInt();
         }
         System.out.println();
@@ -18,7 +19,7 @@ public class EjemploArreglosDesplazarPosicion {
         }
         a[0] = ultimo;
 
-        System.out.println("El arreglo:");
+        System.out.println("The array:");
         for(int i = 0; i < a.length; i++){
             System.out.println(a[i]);
         }

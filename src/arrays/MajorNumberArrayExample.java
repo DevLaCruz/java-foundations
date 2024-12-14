@@ -1,12 +1,13 @@
+package arrays;
 import java.util.Scanner;
 
-public class EjemploArreglosNumMayor {
+public class MajorNumberArrayExample {
     public static void main(String[] args) {
 
         int[] a = new int[5];
         Scanner s = new Scanner(System.in);
 
-        System.out.println("Ingrese 5 enteros:");
+        System.out.println("Type 5 integers:");
         for(int i = 0; i<a.length; i++){
             a[i] = s.nextInt();
         }

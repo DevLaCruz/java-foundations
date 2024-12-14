@@ -25,7 +25,7 @@ public class EjemploArreglosForInverso {
             System.out.println("para indice " + i + " : " + productos[i]);
         }
 
-        System.out.println("=== Usando for inverso ===");
+        System.out.println("=== Use inversed for 1st way ===");
         for(int i = 0; i < total; i++){
             System.out.println("para i = " + (total-1-i) + " valor: " + productos[total-1-i]);
         }
