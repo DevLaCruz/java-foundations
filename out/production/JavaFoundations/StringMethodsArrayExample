@@ -1,0 +1,33 @@
+public class StringMethodsArrayExample {
+    public static void main(String[] args) {
+        
+
+        String tonguetwister = "tonguetwister";
+        System.out.println("tonguetwister.length() = " + tonguetwister.length());
+        System.out.println("tonguetwister.toCharArray() = " + tonguetwister.toCharArray());
+
+        char[] array = tonguetwister.toCharArray();
+        int large = array.length;
+        System.out.println("large = " + large);
+        for(int i = 0; i < large; i++){
+            System.out.print(array[i]);
+        }
+        System.out.println();
+        System.out.println("\ntonguetwister = " + tonguetwister.split("a"));
+
+        String[] array2 = tonguetwister.split("a");
+        int l = array2.length;
+        for(int j=0; j<l; j++){
+            System.out.println(array2[j]);
+        }
+
+        String file = "someone.image.jsf";
+        String[] fileArr = file.split("\\."); // [.]
+        l = fileArr.length;
+        System.out.println("l = " + l);
+        for(int j=0; j < l; j++){
+            System.out.println(fileArr[j]);
+        }
+        System.out.println("extension = " + fileArr[l-1]);
+    }
+}
